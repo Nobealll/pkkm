@@ -47,6 +47,11 @@ class ProductController extends Controller
         }
     }
 
+    public function catalog()
+    {
+        return view('products.calalog');
+    }
+
     /**
      * Store a newly created resource in storage.
      *
